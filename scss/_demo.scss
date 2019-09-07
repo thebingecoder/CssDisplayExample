@@ -1,0 +1,144 @@
+.demo{
+
+  /* inline example */
+    .inline-example{
+      p{
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: normal;
+      }
+
+      span{
+        display: inline;
+        padding: 2px;
+        background: #000;
+        color: #fff;
+        
+        &.hidden{
+          color: #000;
+        }
+      }
+    }
+  /* inline example */
+  /* inline example */
+    .inline-block-example{
+      
+      .nav{
+        background: #999999;
+        border-radius: 5px;
+        overflow: hidden;
+
+        li{
+          display: inline-block;
+          margin: 0 10px;
+          color: #fff;
+          font-weight: bold;
+          text-transform: capitalize;
+          
+          &:first-of-type{
+            margin-left: 0px
+          }
+
+          &:last-of-type{
+            margin-right:0px;
+          }
+
+          a{
+            display:inline-block;
+            text-decoration: none;
+            padding: 10px 15px;
+            color: inherit;
+            transform: all .4s;
+
+            &:hover{
+              background: #000;
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+  /* inline example */
+  
+  /* inline example */
+    .css-float{
+      
+      .float-wrapper{
+        margin: auto;
+        text-align: center;
+
+        .section{
+          clear: both;
+          width: 40%;
+          margin-bottom: 40px;
+          display: inline-block;
+          text-align: justify;
+          padding: 20px;
+          img{
+            width: 200px;
+            height: 200px;
+            border: 4px solid #999;
+            overflow: hidden;
+            float: left;
+            display: block;
+            margin-right: 10px;
+          }
+          
+          &.right{
+
+            img{
+              float:right;
+              margin-right:0;
+              margin-left: 10px;
+            }
+          }
+        }
+      }     
+    }
+  /* inline example */
+  /* flex example */
+    .flex-example{
+
+      .flex-wrapper{
+        display: flex;
+        background: #222;
+        justify-content: left;
+        // justify-content: center;
+        // justify-content: right;
+        // align-items: center;
+        // align-items: flex-start;
+        // align-items: flex-end;
+        width: 80%;
+        margin: auto;
+        height: 800px;
+
+        .section{
+          width: 40%;
+          display: inline-block;
+          text-align: justify;
+          padding: 20px;
+          color: #fff;
+          img{
+            width: 200px;
+            height: 200px;
+            border: 4px solid #999;
+            overflow: hidden;
+            float: left;
+            display: block;
+            margin-right: 10px;
+          }
+          
+          &.right{
+
+            img{
+              float:right;
+              margin-right:0;
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+    }
+  /* flex example */
+
+}
